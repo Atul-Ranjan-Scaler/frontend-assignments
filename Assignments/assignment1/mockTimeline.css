@@ -1,0 +1,53 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+/* timeline css  */
+.timeline{
+    display: flex;
+    width: 100%;
+    height: 12vh;
+}
+
+/* timeline date and time */
+.timeline__dateTime{
+    height: 100%;
+    width: 40%;
+    padding-left: 20px;
+}
+.timeline__date{
+    padding: 0;
+    margin-bottom: 0;
+}
+.timeline__deadline{
+    padding: 0;
+    margin: 0;
+    font-weight: 500;
+}
+
+/* progressBar CSS */
+.timeline__progressBar{
+    width: 10%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.timeline__line{
+    height: 30%;
+    width: 5px;
+    background-color: red;
+}
+.timeline__disc{
+    height: 40px;
+    width: 40px;
+    background-color: green;
+    border-radius: 50%;
+}
+
+/* taskbar css */
+.timeline__taskbar{
+    display: flex;
+    align-items: center;
+}
